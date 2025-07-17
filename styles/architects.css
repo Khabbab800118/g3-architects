@@ -9,7 +9,7 @@ a {
     text-decoration: none;
 }
 
-.primary-btn{
+.primary-btn {
     border: none;
     border-radius: 10px;
     padding: 25px;
@@ -34,9 +34,10 @@ a {
     color: rgba(114, 114, 114, 1);
 }
 
-.orange{
+.orange {
     color: rgba(255, 144, 14, 1);
 }
+
 /* fonts */
 
 
@@ -93,19 +94,34 @@ a {
     text-align: center;
 }
 
-.banner img{
+.banner img {
     margin: 0px 7vw;
     max-width: 84%;
     margin-bottom: 40px;
 }
 
-.banner-title{
+.banner-title {
     font-size: 4rem;
     font-weight: 700;
 }
 
-.banner-description{
+.banner-description {
     font-size: 1rem;
     font-weight: 400;
 }
 
+@media screen and (max-width:576px) {
+
+    .navbar {
+        flex-direction: column;
+        max-width: 576px;
+        margin: 0px auto;
+        align-items: center;
+    }
+
+    .navbar-title {
+        font-size: 3rem;
+        font-weight: 700;
+        margin: 30px 0px;
+    }
+}
