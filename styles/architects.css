@@ -259,6 +259,41 @@ a {
     padding: 2.5rem;
 }
 
+/* sponser section */
+
+.sponser {
+    margin-top: 15rem;
+    text-align: center;
+}
+
+.sponser-title {
+    font-size: 2.8rem;
+    font-weight: 700;
+}
+
+.sponser-description {
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.sponser-icons {
+    justify-content: space-between;
+    margin: 3rem 6rem 8rem 6rem;
+}
+
+/* footer */
+footer {
+    text-align: center;
+    margin-top: 10rem;
+    margin-bottom: 15rem;
+}
+
+.footer-contant {
+    font-size: 1.2rem;
+    font-weight: 400;
+    align-items: center;
+}
+
 @media screen and (max-width:576px) {
 
     /* navbar section */
@@ -338,7 +373,7 @@ a {
 
     /* somefacts */
 
-    .somefacts{
+    .somefacts {
         margin-bottom: 4rem;
     }
 
@@ -356,7 +391,19 @@ a {
 
     .somefacts-description {
         margin-bottom: 4rem;
-}
+    }
+
+    /* sponser section */
+
+    .sponser{
+        justify-items: center;
+    }
+
+    .sponser-icons{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 2rem;
+    }
 
 
 }
